@@ -34,7 +34,7 @@ def index():
             else:
                 return render_template('index.html', response = "Invalid Password")
         except:
-            return redirect('/')
+            return render_template('index.html', response = "Invalid username")
 
     else:
         # print('Hi')
@@ -145,4 +145,4 @@ if __name__ == "__main__":
     #     db.session.add(admin)
     #     db.session.commit()
 
-    app.run(debug=False)
+    app.run(debug=True)

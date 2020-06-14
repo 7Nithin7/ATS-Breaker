@@ -489,9 +489,18 @@ iframe {
   }
 }
 
+/* Custom CSS */
+
+.container-login100 {
+  background-image: url("/templates/images/image1.jpeg");
+  background-size: 100%;
+}
+
+
 h6 {
   text-align: center;
   color:red;
 }
+
 
 
