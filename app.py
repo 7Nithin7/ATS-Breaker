@@ -31,6 +31,8 @@ def index():
             if (check_password_hash(user.password, password)):
                 login_user(user)
                 return redirect('/front')
+            else:
+                return render_template('index.html', response = "Invalid Password")
         except:
             return redirect('/')
 
