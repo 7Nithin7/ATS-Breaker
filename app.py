@@ -145,4 +145,4 @@ if __name__ == "__main__":
     #     db.session.add(admin)
     #     db.session.commit()
 
-    app.run(debug=True)
+    app.run(debug=False)

@@ -492,7 +492,7 @@ iframe {
 /* Custom CSS */
 
 .container-login100 {
-  background-image: url("/templates/images/image1.jpeg");
+  background-image: url("images/image1.jpeg");
   background-size: 100%;
 }
 
